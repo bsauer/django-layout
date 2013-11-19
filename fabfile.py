@@ -4,7 +4,7 @@ import posixpath
 import re
 
 env.project_name = '{{ project_name }}'
-env.repository = 'git@github.com:lincolnloop/{{ project_name }}.git'
+env.repository = 'git@github.com:bsauer/{{ project_name }}.git'
 env.local_branch = 'master'
 env.remote_ref = 'origin/master'
 env.requirements_file = 'requirements.pip'
@@ -37,7 +37,7 @@ def dev():
     """
     Use the development deployment environment.
     """
-    server = '{{ project_name }}.dev.lincolnloop.com'
+    server = '{{ project_name }}.dev.iwindow.org'
     env.roledefs = {
         'web': [server],
         'db': [server],
