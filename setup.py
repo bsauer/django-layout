@@ -6,7 +6,7 @@ setup(
     version='1.0',
     description="",
     author="Bernie Sauer",
-    author_email='bernie@iwindow.com',
+    author_email='bernie@iwindow.org',
     url='',
     packages=find_packages(),
     package_data={'{{ project_name }}': ['static/*.*', 'templates/*.*']},
